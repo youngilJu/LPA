@@ -41,10 +41,10 @@
 	<div id="p1" class="section sec1" id="section0"><!--클래스section필수. 미리 정해져있는 모양-->
 		<header>
 			<ul class="clearfix">
-				<li><a href="#p1">Home</a></li>
-				<li><a href="#p2">About</a></li>
-				<li><a href="#p3">Work</a></li>
-				<li><a href="#p4">Contact</a></li>
+				<li><a href="#firstPage">Home</a></li>
+				<li><a href="#secondPage">About</a></li>
+				<li><a href="#3rdPage">Work</a></li>
+				<li><a href="#4thPage">Contact</a></li>
 			</ul>
 		</header>
 		<div class="page1">
@@ -64,10 +64,10 @@
 	<div id="p2" class="section sec2" id="section1"><!--slide클래스시 해당 섹션안에서 가로 슬라이드-->
 		<header>
 			<ul class="clearfix">
-				<li><a href="#p1">Home</a></li>
-				<li><a href="#p2">About</a></li>
-				<li><a href="#p3">Work</a></li>
-				<li><a href="#p4">Contact</a></li>
+				<li><a href="#firstPage">Home</a></li>
+				<li><a href="#secondPage">About</a></li>
+				<li><a href="#3rdPage">Work</a></li>
+				<li><a href="#4thPage">Contact</a></li>
 			</ul>
 		</header>
 	    <div class="slide" id="slide1">
@@ -147,10 +147,10 @@
 	<div id="p3" class="section sec3" id="section2">
 		<header>
 			<ul class="clearfix">
-				<li><a href="#p1">Home</a></li>
-				<li><a href="#p2">About</a></li>
-				<li><a href="#p3">Work</a></li>
-				<li><a href="#p4">Contact</a></li>
+				<li><a href="#firstPage">Home</a></li>
+				<li><a href="#secondPage">About</a></li>
+				<li><a href="#3rdPage">Work</a></li>
+				<li><a href="#4thPage">Contact</a></li>
 			</ul>
 		</header>
 	    <div class="slide" id="slide4">
@@ -230,10 +230,10 @@
 	<div id="p4" class="section sec4" id="section0"><!--클래스section필수. 미리 정해져있는 모양-->
 		<header>
 			<ul class="clearfix">
-				<li><a href="#p1">Home</a></li>
-				<li><a href="#p2">About</a></li>
-				<li><a href="#p3">Work</a></li>
-				<li><a href="#p4">Contact</a></li>
+				<li><a href="#firstPage">Home</a></li>
+				<li><a href="#secondPage">About</a></li>
+				<li><a href="#3rdPage">Work</a></li>
+				<li><a href="#4thPage">Contact</a></li>
 			</ul>
 		</header>
 		<div class="page4">
@@ -268,7 +268,9 @@
 
 
 <script>
-			AOS.init();
+			AOS.init({
+			once: true,
+		});
 			
 			$('[data-aos]').each(function(){ $(this).addClass("aos-init"); });
 		
